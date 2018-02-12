@@ -51,6 +51,7 @@ GPIO22        - DATA
 If you're using the MAX98357A, connect GND to ground and Vin to +5V (or +3.3V if +5V is unavailable). SD can remain unconnected, and GAIN too unless you want to make it louder or lower. I also recommend using a potentiometer for volume regulation.
 
 ## Sounds
+There a pre-loaded ones, taken from https://www.youtube.com/watch?v=BlEJGwQgkgY.
 
 You can add custom sounds in components/spiffs_image/image. Format should be 16 bit stereo 44.1kHz, raw.
 
