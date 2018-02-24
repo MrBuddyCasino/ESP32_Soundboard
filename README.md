@@ -28,6 +28,8 @@ Add /path/to/xtensa-esp32-elf/bin to your PATH:
 
 Execute 'make menuconfig' and configure your serial port, leave the rest at default settings and then execute 'make flash'.
 
+Build the SPIFFS image with `make makefs`, flash it with `make flashfs`.
+
 ## Connecting the I2S codec
 
 If you don't know about the I2S standard, it is a special protocol for transferring digital audio data between chips, similar to I2C. There are many I2S chips you can choose from, the most important differences are:
